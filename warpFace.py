@@ -6,7 +6,6 @@ import tensorflow.experimental.numpy as tnp
 import tensorflow as tf
 import face_recognition
 
-#implement the function above using tensorflow tensors
 def tf_mls_affine_deformation(vx, vy, p, q, eps=1e-6, alpha=0.5):
     """
     Calculate the affine deformation field using MLS.
